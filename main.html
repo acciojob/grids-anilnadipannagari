@@ -1,14 +1,62 @@
 <!DOCTYPE html>
 
 <html>
-
 <head>
-	<link rel="stylesheet" href="styles.css">
+<style>
+#container{
+width: 300px;
+height: 315px;
+	background-color: bisque;
+	border-style: double;
+	border-color: greenyellow;
+	padding: 5px;
+	}
+.a1{display : flex;
+	margin-bottom: 5px;
+}
+	.a2{display : flex;
+		margin-bottom: 5px;
+		background-color: rgb(65, 20, 20);
+}.a3{display : flex;
+	margin-bottom: 5px;
+	padding-left: 50px;
+	background-color: rgb(65, 20, 20);
+}
+.felx-box{
+	height: 100px;
+	width: 100px;
+	border: 1px dotted black;
+}
+.box1{
+	
+	background-color: aqua;
+}.box2{
+	width: 200px;
+	background-color:rgb(176, 182, 186) ;
+}.box3{margin-left: 50px;
+	background-color:rgb(235, 126, 17) ;
+}.box4{ margin-left: 50px;
+	background-color:rgb(26, 222, 233) ;
+}.box5{
+	background-color:rgb(225, 64, 163) ;
+}.box6{
+	background-color:rgb(174, 239, 23) ;
+}
+</style>	
 </head>
 
 <body>
+	<div id="container">
 	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
+   <div class="a1"> <div class="felx-box box1">Row1 col1</div>
+	<div class="felx-box box2">Row1 col2</div></div>
+	<div class="a2"><div class="felx-box box3">Row2 col1</div>
+	<div class="felx-box box4">Row2 col2</div></div>
+	<div class="a3"><div class="felx-box box5">Row3 col1</div>
+	<div class="felx-box box6">Row3 col2</div></div>
+	<!-- <div class="felx-box box7"></div> -->
+	</div>
+	<script type="text/javascript" src="./script.js">
 </script>
 
 </body>
